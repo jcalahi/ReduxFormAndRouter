@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
 
-export default class App extends Component {
+class PostsNew extends Component {
   render() {
     return (
       <div>
-        My Starter
+        Posts New!
       </div>
     );
   }
 }
+
+export default PostsNew;
